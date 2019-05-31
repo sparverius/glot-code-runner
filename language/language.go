@@ -36,6 +36,7 @@ import (
 	"github.com/prasmussen/glot-code-runner/language/rust"
 	"github.com/prasmussen/glot-code-runner/language/scala"
 	"github.com/prasmussen/glot-code-runner/language/swift"
+	"github.com/prasmussen/glot-code-runner/language/temptory"
 	"github.com/prasmussen/glot-code-runner/language/typescript"
 )
 
@@ -77,6 +78,7 @@ var languages = map[string]runFn{
 	"rust":         rust.Run,
 	"scala":        scala.Run,
 	"swift":        swift.Run,
+	"temptory":     temptory.Run,
 	"typescript":   typescript.Run,
 }
 

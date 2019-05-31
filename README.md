@@ -44,6 +44,7 @@ you want to run is installed and is in PATH.
 - rust
 - scala
 - swift
+- temptory
 
 ## Input (stdin)
 The input is required to be a json object containing the properties `language`
